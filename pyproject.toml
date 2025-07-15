@@ -1,0 +1,24 @@
+[project]
+name = "emit-tutorial"
+version = "0.1.0"
+description = "EMIT Tutorial"
+authors = [
+    {name = "imedan",email = "ilija.medan@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "matplotlib (>=3.10.3,<4.0.0)",
+    "numpy (>=2.3.1,<3.0.0)",
+    "astropy (>=7.1.0,<8.0.0)",
+    "scipy (>=1.16.0,<2.0.0)",
+    "notebook (>=7.4.4,<8.0.0)"
+]
+
+
+[build-system]
+requires = ["setuptools>=64",
+            "setuptools_scm>=8",
+            "poetry-core>=2.0.0,<3.0.0"]
+build-backend = "setuptools.build_meta"
+package-mode = false
