@@ -14,11 +14,10 @@ dependencies = [
     "scipy (>=1.16.0,<2.0.0)",
     "notebook (>=7.4.4,<8.0.0)"
 ]
-
+package-mode = false
 
 [build-system]
 requires = ["setuptools>=64",
             "setuptools_scm>=8",
             "poetry-core>=2.0.0,<3.0.0"]
 build-backend = "setuptools.build_meta"
-package-mode = false
